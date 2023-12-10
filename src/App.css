@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
+
+.align-left {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.switch {
+  cursor: pointer;
+}
+
+.cards-view {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+
+  font-family: "Saira Condensed", Arial, Helvetica, sans-serif;
+
+    border-radius: 8px;
+      box-shadow: 0 0 10px #bbbbbb;
+      margin: 32px;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card__image {
+  width: 300px;
+  height: 300px;
+}
+
+.card__header {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right:0;
+  text-align: center;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  position: absolute;
+  bottom: 16px;
+  left: 32px;
+  right: 32px;
+}
+
+.card__price {
+  color: red;
+}
+
+.button {
+  border-radius: 32px;
+  padding: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: red;
+  border: 1px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Saira Condensed", Arial, Helvetica, sans-serif;
+  margin: 16px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin: 2px;
+}
+
+.item__image {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+  object-position: 0 70%;
+}
+
+.item__title {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.item__price {
+  color: red;
+}
